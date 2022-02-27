@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: rgb(17, 37, 88);
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vw;
+    padding-bottom: 5px;
+    color: white;
+    z-index: 100;
+  }
+  
+  @media (max-width: 1000px) {
+    .header {
+      padding-top: 15px;
+      font-size: 6.4vw;
+    }
+  }
